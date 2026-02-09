@@ -1,0 +1,26 @@
+{
+    "shivam": {
+        "username": "shivam",
+        "password": "$2b$12$j0iVvALf9GjwMCwlGvuRzetEykm2jXz2weUXp0OPRRyma5RKW4Ox.",
+        "tasks": [
+            {
+                "id": 1,
+                "title": "python",
+                "description": "variable, datatypes",
+                "status": "Pending"
+            }
+        ]
+    },
+    "shivam.verve": {
+        "username": "shivam.verve",
+        "password": "$2b$12$8EyhqHuF67PtQD/FXaGG9Oc14a5teFX8139PH/SWRUtojZCQntj2K",
+        "tasks": [
+            {
+                "id": 1,
+                "title": "python",
+                "description": "control flow, functions",
+                "status": "Pending"
+            }
+        ]
+    }
+}
