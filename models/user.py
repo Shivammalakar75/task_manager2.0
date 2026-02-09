@@ -26,6 +26,9 @@ class User:
     def delete_task(self, task_id):
         self.tasks = [t for t in self.tasks if t.id != task_id]
 
+    def mark_completed(self):
+        self.status = "Completed"
+
     def print_tasks(self, tasks=None):
         tasks = tasks if tasks is not None else self.tasks
 

@@ -8,7 +8,9 @@ def task_menu(users):
     global CURRENT_USER
 
     while CURRENT_USER:
-        print(f"\nWELCOME {CURRENT_USER.username.upper()}")
+        print(f"\n{f'WELLCOME {CURRENT_USER.username.upper()}':^75}")
+        print("=" * 75)
+
         print("1. ADD TASK")
         print("2. VIEW TASKS")
         print("3. VIEW PENDING TASKS")

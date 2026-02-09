@@ -5,9 +5,6 @@ class Task:
         self.description = description
         self.status = status
 
-    def mark_completed(self):
-        self.status = "Completed"
-
     def to_dict(self):
         return self.__dict__
 
