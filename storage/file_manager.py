@@ -13,7 +13,7 @@ def load_users():
         try:
             raw = json.load(f)
         except json.JSONDecodeError:
-            return {}
+            return {}   
 
     users = {}
     for username, data in raw.items():
@@ -29,7 +29,3 @@ def save_users(users):
 
     with open(USER_DATA_FILE, "w") as f:
         json.dump(data, f, indent=4)
-
-
-
-

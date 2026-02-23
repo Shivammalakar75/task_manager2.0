@@ -8,19 +8,18 @@
                 "title": "python",
                 "description": "variable, datatypes",
                 "status": "Completed"
-            }
-        ]
-    },
-    "shivam.verve": {
-        "username": "shivam.verve",
-        "password": "$2b$12$8EyhqHuF67PtQD/FXaGG9Oc14a5teFX8139PH/SWRUtojZCQntj2K",
-        "tasks": [
+            },
             {
-                "id": 1,
-                "title": "python",
-                "description": "control flow, functions",
+                "id": 2,
+                "title": "python modules",
+                "description": "time module, file handling, json, request, decorators, regex, numpy, pandas",
                 "status": "Pending"
             }
         ]
+    },
+    "chinmay": {
+        "username": "chinmay",
+        "password": "$2b$12$DN/j4ZJnriGAnlprxOwUa.A463Hqhqi7bbLUPchceSnf29Q7gaD7O",
+        "tasks": []
     }
 }
